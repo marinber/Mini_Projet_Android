@@ -57,15 +57,16 @@ public class MainActivity extends ActionBarActivity
     }
 
     public void onSectionAttached(int number) {
+        Fragment fragment=null;
         switch (number) {
             case 1:
-                mTitle = getString(R.string.title_section1);
+                fragment = new Home();
                 break;
             case 2:
-                mTitle = getString(R.string.title_section2);
+                fragment = new Photo();
                 break;
             case 3:
-                mTitle = getString(R.string.title_section3);
+                fragment = new Settings();
                 break;
         }
     }
