@@ -10,4 +10,11 @@
     <string name="action_example">Example action</string>
     <string name="action_settings">Settings</string>
 
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_setting</item>
+    </array>
+
 </resources>
